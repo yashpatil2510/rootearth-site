@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="RootEarth supplies premium cocopeat (coconut coir) for home gardeners and bulk wholesale buyers—nurseries, greenhouses, soil blenders, berry and vegetable growers in Washington and across the USA." />
+  <title>RootEarth | Premium Cocopeat (Coconut Coir) for Gardeners & Bulk Buyers</title>
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="RootEarth Home">
+        <span class="brand__mark">🌱</span>
+        <span class="brand__text">RootEarth</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <ul class="nav__list" id="navList">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#bulk">Bulk Buyers</a></li>
+          <li><a href="#why">Why Cocopeat</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="btn btn--small" href="#contact">Get a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <p class="pill">Eco-friendly • Sustainable • High performance growing medium</p>
+          <h1>Premium Cocopeat (Coconut Coir) for healthier roots & better yields</h1>
+          <p class="lead">
+            RootEarth supplies washed & buffered cocopeat for home gardeners and bulk buyers—nurseries,
+            greenhouses, soil blenders, berry & vegetable growers, hydroponics, and licensed cultivators.
+          </p>
+
+          <div class="cta">
+            <!-- Replace this Amazon link later -->
+            <a class="btn" href="https://www.amazon.com/" target="_blank" rel="noopener">Buy on Amazon</a>
+            <a class="btn btn--ghost" href="#contact">Request Bulk Pricing</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__item"><strong>Low EC</strong><span>washed & buffered</span></div>
+            <div class="trust__item"><strong>Great aeration</strong><span>strong root growth</span></div>
+            <div class="trust__item"><strong>High retention</strong><span>less frequent watering</span></div>
+          </div>
+        </div>
+
+        <div class="card hero__card">
+          <h3>Quick Bulk Inquiry</h3>
+          <p class="muted">Get a fast quote for Washington & USA bulk supply.</p>
+
+          <!-- OPTION A (Recommended): Formspree -->
+          <!-- 1) Create free Formspree form and replace action URL with your Formspree endpoint -->
+          <form class="form" id="bulkForm" action="https://formspree.io/f/your_form_id" method="POST">
+            <label>
+              Name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Business / Farm / Nursery
+              <input name="company" placeholder="Company name" />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" required placeholder="you@company.com" />
+            </label>
+            <label>
+              City / State
+              <input name="location" placeholder="Seattle, WA" />
+            </label>
+            <label>
+              Usage
+              <select name="usage">
+                <option>Nursery / Greenhouse</option>
+                <option>Soil blending / Potting mix</option>
+                <option>Berry / Vegetable farm</option>
+                <option>Hydroponics</option>
+                <option>Licensed cultivation</option>
+                <option>Home gardening</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Monthly volume (approx.)
+              <input name="volume" placeholder="e.g., 10–50 blocks / pallet / container" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell us what you need (block size, quantity, timing)"></textarea>
+            </label>
+
+            <input type="hidden" name="_subject" value="RootEarth Bulk Inquiry" />
+            <button class="btn btn--full" type="submit">Send Inquiry</button>
+
+            <p class="form__note muted">
+              Prefer email? <a href="#contact">Contact us</a>.
+            </p>
+          </form>
+
+          <!-- OPTION B (no third-party): mailto form (uncomment to use) -->
+          <!--
+          <form class="form" action="mailto:you@rootearth.in" method="GET">
+            <label>Name <input name="subject" placeholder="Bulk Inquiry - Your Name" required></label>
+            <label>Message <textarea name="body" rows="6" placeholder="Company, location, volume, use-case"></textarea></label>
+            <button class="btn btn--full" type="submit">Open Email</button>
+          </form>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section" id="products">
+      <div class="container">
+        <h2>Products</h2>
+        <p class="muted">Cocopeat (coconut coir) growing medium for potting mixes, greenhouses, hydroponics, and soil conditioning.</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Cocopeat Blocks (Washed & Buffered)</h3>
+            <ul class="list">
+              <li>Consistent quality for growers & blenders</li>
+              <li>Improves aeration and water retention</li>
+              <li>Ideal for nurseries, farms, hydroponics</li>
+            </ul>
+            <div class="card__footer">
+              <a class="link" href="#contact">Ask for specs & pricing →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Retail Packs (Home Gardening)</h3>
+            <ul class="list">
+              <li>Great for container gardening</li>
+              <li>Seed starting & potting mixes</li>
+              <li>Easy to store, expand with water</li>
+            </ul>
+            <div class="card__footer">
+              <a class="link" href="https://www.amazon.com/" target="_blank" rel="noopener">Shop on Amazon →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Bulk Supply (Wholesale)</h3>
+            <ul class="list">
+              <li>Nurseries & greenhouse operations</li>
+              <li>Soil blenders & potting mix manufacturers</li>
+              <li>Berry, vegetable, and commercial farms</li>
+            </ul>
+            <div class="card__footer">
+              <a class="link" href="#bulk">Request bulk quote →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bulk Buyers -->
+    <section class="section section--alt" id="bulk">
+      <div class="container">
+        <h2>Bulk Buyers</h2>
+        <p class="muted">
+          Serving Washington (Seattle, Bellevue, Redmond, Woodinville, Kirkland, Monroe) and shipping across the USA.
+          Long-term supply partnerships available.
+        </p>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Who we work with</h3>
+            <ul class="list">
+              <li>Retail nurseries & commercial nurseries</li>
+              <li>Greenhouse vegetable growers</li>
+              <li>Berry growers</li>
+              <li>Soil blending companies</li>
+              <li>Potting mix manufacturers</li>
+              <li>Hydroponic growers</li>
+              <li>Licensed cultivators (where permitted)</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>What you get</h3>
+            <ul class="list">
+              <li>Washed & buffered cocopeat (low EC)</li>
+              <li>Reliable supply & consistent batches</li>
+              <li>Fast response on bulk quotes</li>
+              <li>Support for mixing ratios and usage</li>
+            </ul>
+            <div class="cta">
+              <a class="btn" href="#contact">Get Bulk Pricing</a>
+              <a class="btn btn--ghost" href="#why">Why cocopeat?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section" id="why">
+      <div class="container">
+        <h2>Why Cocopeat?</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Better water management</h3>
+            <p class="muted">Holds moisture well, helping reduce watering frequency and stabilize root-zone hydration.</p>
+          </article>
+          <article class="card">
+            <h3>Improved aeration</h3>
+            <p class="muted">Creates a balanced structure for oxygen flow—supporting stronger, healthier roots.</p>
+          </article>
+          <article class="card">
+            <h3>Sustainable alternative</h3>
+            <p class="muted">Made from renewable coconut husks; a natural option versus traditional peat-based media.</p>
+          </article>
+        </div>
+
+        <div class="note card">
+          <strong>Tip:</strong> Most growers use cocopeat blended with perlite/compost/fertilizers depending on crop and irrigation style.
+          Ask us for suggested mix ratios based on your use-case.
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <h2>About RootEarth</h2>
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Our mission</h3>
+            <p class="muted">
+              RootEarth helps growers and gardeners improve plant health with a clean, consistent, eco-friendly growing medium.
+              We focus on quality, sustainability, and reliable supply for both retail and bulk customers.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Quality focus</h3>
+            <ul class="list">
+              <li>Washed & buffered for stable performance</li>
+              <li>Optimized for water retention + aeration</li>
+              <li>Suitable for potting mixes, farms, and hydroponics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">For bulk quotes, partnerships, or product questions, send us a message.</p>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Send a message</h3>
+
+            <!-- Same Formspree endpoint (recommended) -->
+            <form class="form" action="https://formspree.io/f/your_form_id" method="POST">
+              <label>
+                Name
+                <input name="name" required placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" required placeholder="you@company.com" />
+              </label>
+              <label>
+                Subject
+                <input name="subject" placeholder="Bulk quote / Product question" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Tell us what you need"></textarea>
+              </label>
+
+              <input type="hidden" name="_subject" value="RootEarth Contact" />
+              <button class="btn btn--full" type="submit">Send</button>
+            </form>
+
+            <p class="muted small">
+              Replace the Formspree URL with your own (free) endpoint, or switch to a mailto link.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Business info</h3>
+            <p class="muted">
+              <strong>Service area:</strong> Washington State + nationwide shipping<br/>
+              <strong>Focus:</strong> Nurseries, greenhouses, soil blenders, farms, home gardeners
+            </p>
+
+            <div class="divider"></div>
+
+            <!-- Replace these with your real details -->
+            <p class="muted">
+              <strong>Email:</strong> <a class="link" href="mailto:info@rootearth.in">info@rootearth.in</a><br/>
+              <strong>Phone:</strong> <a class="link" href="tel:+12065550123">+1 (206) 555-0123</a><br/>
+              <strong>Location:</strong> Seattle, WA
+            </p>
+
+            <div class="divider"></div>
+
+            <a class="btn btn--ghost" href="https://www.amazon.com/" target="_blank" rel="noopener">View on Amazon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> RootEarth. All rights reserved.</p>
+        <div class="footer__links">
+          <a href="#products">Products</a>
+          <a href="#bulk">Bulk Buyers</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
